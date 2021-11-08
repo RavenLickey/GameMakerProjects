@@ -7,4 +7,4 @@
 		motion_add(_dir, _dist / 5);
 		// Maintain the speed
 		speed = _s;
-		audio_play_sound(sndBounce, 0, false);
+		audio_play_sound(sndClick, 0, false);

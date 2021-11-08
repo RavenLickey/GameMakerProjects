@@ -11,4 +11,4 @@
 		audio_play_sound(sndBreak, 0, false);
 		instance_destroy(other); // Destroy the "other" object in the collision, ie: the brick
 		
-	//	global.playerScore += 15; //add to the score
+		global.playerScore += 15; //add to the score

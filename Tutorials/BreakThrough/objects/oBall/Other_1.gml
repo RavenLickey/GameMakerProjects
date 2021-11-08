@@ -13,18 +13,31 @@
 		    // Reverse the vertical component of the speed vector
 		    vspeed *= -1;
 		    }
-		else
-		    {
+		else{
 		    // Check if the ball is leaving the bottom of the room
-		    if bbox_bottom > room_height
-		        {
+		    if bbox_bottom > room_height{
 		        // The ball is leaving the room, so create a new one and destroy this one
-		        instance_create_layer(xstart, ystart, layer, oBall);
-		        instance_destroy();
-		        }
-		    }
+		        global.playerLives -= 1;
+				if global.playerLives <= 0
+				    {
+				    // Check for new highscore
+				    if global.playerScore > global.highScore{
+				        global.highScore = global.playerScore;
+				        }
+				    // Set controller state
+				    with (oControl){
+				        state ="GAMEOVER"
+				        }
+				    }
+				else{
+				    // Only create a new ball if the player has lives
+				    instance_create_layer(xstart, ystart, layer, oBall);
+				    }
+					instance_destroy();
+			}
+		}
 		// With each bounce, increase the ball speed up to a maximum of 12px per step
 		if speed < 12 speed += 0.1;
-		audio_play_sound(sndBounce, 0, false);
+		audio_play_sound(sndClick, 0, false);
 		direction += 2 - random(4);
 	
