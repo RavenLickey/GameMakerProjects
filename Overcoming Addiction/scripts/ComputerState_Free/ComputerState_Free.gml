@@ -1,7 +1,26 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ComputerState_Free(){
-	move = 1;
+	//movement selection AI
+	if(oFighter0.x > x+100){
+			move = 1;	
+	}
+	else if(oFighter0.x < x-100){
+			move = -1;
+	}
+	else{
+		move = 0;
+	}
+	if (oFighter0.y + 5  < y){
+		jump = 1;
+	}
+	else{
+		jump = 0;
+	}
+	
+	
+	
+
 	hsp = move*moveSpeed;
 	if(vsp < 15)
 		vsp+= grav;
@@ -49,7 +68,7 @@ function ComputerState_Free(){
 		}
 	}
 	if(hsp != 0){
-		image_xscale = sign(hsp);
+		image_xscale = -sign(hsp);
 	}
 	/*
 	if(lightAttack){

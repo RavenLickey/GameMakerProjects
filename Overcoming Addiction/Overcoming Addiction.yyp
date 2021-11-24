@@ -24,6 +24,7 @@
     {"id":{"name":"sHealthColor","path":"sprites/sHealthColor/sHealthColor.yy",},"order":5,},
     {"id":{"name":"sBottleLightHB","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"order":10,},
     {"id":{"name":"sHealthBackground","path":"sprites/sHealthBackground/sHealthBackground.yy",},"order":8,},
+    {"id":{"name":"ComputerState_Dead","path":"scripts/ComputerState_Dead/ComputerState_Dead.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

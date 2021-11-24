@@ -2,6 +2,7 @@
 // You can write your code in this editor
 alive = (hp > 0);
 jump = 0;
+moveSpeed = 3;
 switch(state){
 	case COMPUTERSTATE.FREE: 
 		ComputerState_Free();
@@ -16,6 +17,6 @@ switch(state){
 		break;
 		*/
 	case COMPUTERSTATE.DEAD:
-		PlayerState_Dead();
+		ComputerState_Dead();
 		break;
 }
