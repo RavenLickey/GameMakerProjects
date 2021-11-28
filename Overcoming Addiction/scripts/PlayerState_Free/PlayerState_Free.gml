@@ -30,7 +30,7 @@ function PlayerState_Free(){
 
 	//Animation
 	if(!place_meeting(x, y+1, oBrick)){
-		sprite_index = sBottleAir;
+		sprite_index = sFighterAir;
 		image_speed = 0;
 		if(sign(vsp > 0)) {
 			image_index = 1;
@@ -45,12 +45,14 @@ function PlayerState_Free(){
 			sprite_index = sFighter;
 		}
 		else{
-			sprite_index = sBottleR;
+			sprite_index = sFighterR;
 		}
 	}
+	
 	if(hsp != 0){
-		image_xscale = -sign(hsp);
+		image_xscale = sign(move);
 	}
+	
 	if(lightAttack){
 		state = PLAYERSTATE.ATTACK_LIGHT;
 	}

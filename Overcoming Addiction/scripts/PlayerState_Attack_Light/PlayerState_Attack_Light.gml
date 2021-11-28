@@ -29,13 +29,13 @@ function PlayerState_Attack_Light(){
 	y += vsp;
 
 	//Start of the attack
-	if(sprite_index!= sBottleLight){
-		sprite_index = sBottleLight;
+	if(sprite_index!= sFighterLight){
+		sprite_index = sFighterLight;
 		image_speed = 1;
 		ds_list_clear(hitByAttack);
 	}
 	//use attack hitbox and check for hits
-	mask_index = sBottleLightHB;
+	mask_index = sFighterLightHB;
 	var hitByAttackNow = ds_list_create(); 
 	var hits = instance_place_list(x,y, oBottle, hitByAttackNow, false);
 	if(hits > 0){
@@ -51,9 +51,9 @@ function PlayerState_Attack_Light(){
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = sBottle;
+	mask_index = sFighter;
 	if (animationEnd()){
-		sprite_index = sBottle;
+		sprite_index = sFighter;
 		state = PLAYERSTATE.FREE;
 	}
 }

@@ -11,13 +11,14 @@ function ComputerState_Free(){
 	else{
 		move = 0;
 	}
+	/*
 	if (oFighter0.y + 5  < y){
 		jump = 1;
 	}
 	else{
 		jump = 0;
 	}
-	
+	*/
 	
 	
 
