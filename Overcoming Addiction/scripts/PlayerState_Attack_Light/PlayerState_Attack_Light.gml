@@ -55,5 +55,8 @@ function PlayerState_Attack_Light(){
 	if (animationEnd()){
 		sprite_index = sFighter;
 		state = PLAYERSTATE.FREE;
+		//sound
+		audio_play_sound(sndPunch2, 100, false);
 	}
+	
 }

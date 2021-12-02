@@ -25,16 +25,16 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"ccc4f9cd-5e2f-4a88-8367-50a8c90077f8","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBottleHeavyHB","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"ccc4f9cd-5e2f-4a88-8367-50a8c90077f8","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBottleHeavyHB","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"22ea8e78-6f5d-436c-afc5-29027c00e201","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"4c1e06bb-0b7a-4485-b041-47b7d74cc919","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c1e06bb-0b7a-4485-b041-47b7d74cc919","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"4c1e06bb-0b7a-4485-b041-47b7d74cc919","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"ccc4f9cd-5e2f-4a88-8367-50a8c90077f8","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"4c1e06bb-0b7a-4485-b041-47b7d74cc919","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBottleHeavyHB","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},"resourceVersion":"1.0","name":"4c1e06bb-0b7a-4485-b041-47b7d74cc919","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,7 +66,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 149,
-    "yorigin": 1,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBottleHeavyHB","path":"sprites/sBottleHeavyHB/sBottleHeavyHB.yy",},

@@ -23,8 +23,8 @@ function PlayerState_Dead(){
 
 	x += hsp;
 	y += vsp;
-	if(sprite_index!= sBottleDead){
-		sprite_index = sBottleDead;
+	if(sprite_index!= sFighterDead){
+		sprite_index = sFighterDead;
 		image_speed = 1;
 	}
 }

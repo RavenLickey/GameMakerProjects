@@ -16,8 +16,9 @@ switch(room){
 		
 		LEFT/RIGHT or A/D: Move
 		SPACE: Jump
+		SHIFT: Dash
 		LEFT CLICK: Light Attack
-		RIGHT CLICK: Heavy Attack
+		RIGHT CLICK: Heavy Attack	
 		
 		>>PRESS ANY KEY TO START<<");
 		draw_set_halign(fa_left); //reset the alignment

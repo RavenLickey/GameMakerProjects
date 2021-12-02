@@ -25,12 +25,12 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":{"name":"bbf079ec-8a7f-48be-9673-b30cedbaf45f","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBottleLightHB","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"1b7ae39a-e7a7-4c60-ae9f-587e8197a085","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":{"name":"bbf079ec-8a7f-48be-9673-b30cedbaf45f","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"22ea8e78-6f5d-436c-afc5-29027c00e201","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"LayerId":{"name":"b3c86d50-610e-4b24-a8b0-3f5511f19d27","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sBottleLightHB","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},"resourceVersion":"1.0","name":"22ea8e78-6f5d-436c-afc5-29027c00e201","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -61,7 +61,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 148,
-    "yorigin": 1,
+    "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBottleLightHB","path":"sprites/sBottleLightHB/sBottleLightHB.yy",},

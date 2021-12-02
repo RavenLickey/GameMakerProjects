@@ -7,6 +7,7 @@ if(keyboard_check_pressed(vk_anykey)){
 			break;
 		case rmWin: 
 		case rmLose:
+		audio_stop_all();
 		game_restart();
 		break;
 	}
@@ -19,13 +20,9 @@ if room == rmBottleFight{ //once a fighter's hp drops at least to 0 adjust step
 			room_goto(rmWin);
 	}
 	if (oFighter0.hp <= 0){
-		room_goto(rmLose);
+		var tend = get_timer()+10;
+		if(get_timer() > tend)
+			room_goto(rmLose);
 	}
 }
 
-if(step >= 5*room_speed){ //if step is positive, wait 5 seconds then go to the win room
-	room_goto(rmWin);
-}
-if(step <= -5*room_speed){ //if step is negative, wait 5 seconds then go to the lose room
-	room_goto(rmLose);
-}

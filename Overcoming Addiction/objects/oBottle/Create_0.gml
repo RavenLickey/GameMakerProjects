@@ -12,14 +12,18 @@ hpHeight = 32;
 hpx = (room_width/2)+96;
 hpy = 34;
 
+strikeCount = 0;
+startTimer = 1; // timer bool
+timer = 0;
+timer2 = 0;
 hitByAttack = ds_list_create();
-state = COMPUTERSTATE.FREE;
+state = COMPUTERSTATE.CHASE_PLAYER;
 
 
 enum COMPUTERSTATE{
-	FREE,
-	/*ATTACK_LIGHT,
+	CHASE_PLAYER,
+	AVOID_PLAYER, 
+	ATTACK_LIGHT,
 	ATTACK_HEAVY,
-	*/
 	DEAD
 }

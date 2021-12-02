@@ -9,13 +9,13 @@ function PlayerState_Free(){
 	if(place_meeting(x, y+1, oBrick)){
 			vsp = jump * -jumpSpeed;
 	}
-
+	
 	//horizontal Collision
-	if(place_meeting(x+hsp, y, oBrick)){
-		while(!place_meeting(x+sign(hsp), y, oBrick)){
+	if(place_meeting(x+(hsp*2), y, oBrick)){ //if the next move would place you into a wall
+		while(!place_meeting(x+sign(hsp), y, oBrick)){ //move as close to the wall as possible 
 			x += sign(hsp);
 		}
-		hsp = 0;
+		hsp = 0; //set speed to 0
 	}
 	//Vertical Collision
 	if(place_meeting(x, y+vsp, oBrick)){
@@ -52,7 +52,9 @@ function PlayerState_Free(){
 	if(hsp != 0){
 		image_xscale = sign(move);
 	}
-	
+	if(dash){
+		state = PLAYERSTATE.DASH;	
+	}
 	if(lightAttack){
 		state = PLAYERSTATE.ATTACK_LIGHT;
 	}

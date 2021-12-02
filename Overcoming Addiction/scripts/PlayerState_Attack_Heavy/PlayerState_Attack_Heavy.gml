@@ -17,6 +17,7 @@ function PlayerState_Attack_Heavy(){
 		}
 		hsp = 0;
 	}
+	
 	//Vertical Collision
 	if(place_meeting(x, y+vsp, oBrick)){
 		while(!place_meeting(x, y+sign(vsp), oBrick)){
@@ -46,6 +47,7 @@ function PlayerState_Attack_Heavy(){
 				ds_list_add(hitByAttack, hitID); //add the hit to the list
 				with(hitID){
 					oBottle.hp -= 10; //decrease the hp of the enemy by 10
+					audio_play_sound(sndPunch2, 80, true);
 				}
 			}
 		}
@@ -53,7 +55,9 @@ function PlayerState_Attack_Heavy(){
 	ds_list_destroy(hitByAttackNow);
 	mask_index = sFighter;
 	if (animationEnd()){
+		audio_stop_sound(sndPunch2);
 		sprite_index = sFighter;
 		state = PLAYERSTATE.FREE;
 	}
+	
 }

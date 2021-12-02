@@ -15,11 +15,19 @@ else{
 jump = keyboard_check_pressed(vk_space);
 lightAttack = mouse_check_button_pressed(mb_left);
 heavyAttack = mouse_check_button_pressed(mb_right);
-alive = (hp > 0);
+dash = keyboard_check_pressed(vk_shift);
 
+alive = (hp > 0);
+if (hp < 0){
+	hp = 0;
+}
 switch(state){
 	case PLAYERSTATE.FREE: 
 		PlayerState_Free();
+		break;
+		
+	case PLAYERSTATE.DASH:
+		PlayerState_Dash();
 		break;
 		
 	case PLAYERSTATE.ATTACK_LIGHT:
@@ -29,6 +37,7 @@ switch(state){
 	case PLAYERSTATE.ATTACK_HEAVY:
 		PlayerState_Attack_Heavy();
 		break;
+		
 	case PLAYERSTATE.DEAD:
 		PlayerState_Dead();
 }
