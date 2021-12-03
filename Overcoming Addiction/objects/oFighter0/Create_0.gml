@@ -16,7 +16,7 @@ hpWidth = 482;
 hpHeight = 32;
 hpx = 98;
 hpy = 34;
-
+audio_play_sound(sndBackground1, 100, true); //play the background music when the fighter is created
 
 hitByAttack = ds_list_create();
 state = PLAYERSTATE.FREE;
